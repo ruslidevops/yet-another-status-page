@@ -1,0 +1,16 @@
+[book]
+title = "Yet Another Status Page"
+description = "A modern status page built with Payload CMS and Next.js"
+authors = ["Hostzero GmbH"]
+language = "en"
+
+[build]
+build-dir = "book"
+
+[output.html]
+git-repository-url = "https://github.com/Hostzero-GmbH/yet-another-status-page"
+edit-url-template = "https://github.com/Hostzero-GmbH/yet-another-status-page/edit/main/docs/src/{path}"
+site-url = "/yet-another-status-page/"
+default-theme = "light"
+preferred-dark-theme = "navy"
+smart-punctuation = true
